@@ -1,0 +1,2 @@
+rootProject.name = "ProjectSync"
+include ':app'
