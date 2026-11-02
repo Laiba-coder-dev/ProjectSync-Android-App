@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:text="Student Performance Prediction"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_studytime"
+            android:hint="Study Time (1-4)"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textColorHint="#666666"/>
+
+        <EditText
+            android:id="@+id/et_failures"
+            android:hint="Failures"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#666666"/>
+
+        <EditText
+            android:id="@+id/et_absences"
+            android:hint="Absences"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#666666"/>
+
+        <EditText
+            android:id="@+id/et_g1"
+            android:hint="G1 Grade"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#666666"/>
+
+        <EditText
+            android:id="@+id/et_g2"
+            android:hint="G2 Grade"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#666666"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_predict"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Predict"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#1A237E"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
