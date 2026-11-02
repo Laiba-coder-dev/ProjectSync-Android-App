@@ -18,13 +18,31 @@ The PMO prediction screen accepts a student's study time, previous failures, abs
 
 The prediction feature depends on the external service being reachable. Its URL is currently configured in `PerformancePredictionActivity.java`; replace the current ngrok tunnel address with the stable URL for the deployed prediction API before relying on it.
 
-## Technology
+## Screenshots
 
-- Java Android application with XML layouts.
-- Android Gradle Plugin 8.2.0.
-- Android SDK compile/target 34; minimum Android API 24.
-- AndroidX AppCompat, Material Components, ConstraintLayout, RecyclerView, and CardView.
-- Retrofit and Gson for prediction API requests.
+Here are some screenshots of the app to showcase the mobile view:
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot1.jpeg" width="200" alt="Screenshot 1"/><br/><sub>Screenshot 1</sub></td>
+    <td align="center"><img src="screenshots/screenshot2.jpeg" width="200" alt="Screenshot 2"/><br/><sub>Screenshot 2</sub></td>
+    <td align="center"><img src="screenshots/screenshot3.jpeg" width="200" alt="Screenshot 3"/><br/><sub>Screenshot 3</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/screenshot4.jpeg" width="200" alt="Screenshot 4"/><br/><sub>Screenshot 4</sub></td>
+    <td align="center"><img src="screenshots/screenshot5.jpeg" width="200" alt="Screenshot 5"/><br/><sub>Screenshot 5</sub></td>
+    <td align="center"><img src="screenshots/screenshot6.jpeg" width="200" alt="Screenshot 6"/><br/><sub>Screenshot 6</sub></td>
+  </tr>
+</table>
+
+## Technologies Used
+The following technologies were used in the development of this project:
+
+- **Android Studio**: For developing the Android application.
+- **Google Colab**: For building and training the AI module.
+- **Java/Kotlin**: For Android app development.
+- **Git**: For version control.
+
 
 ## Open and run
 
